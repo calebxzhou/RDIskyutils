@@ -1,21 +1,14 @@
 {
   "required": true,
-  "package": "net.nicguzzo.mixin",
-  "compatibilityLevel": "JAVA_16",
+  "package": "calebzhou.skyutils.mixin",
+  "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "mixins": [
-    "BlockMixin",
-    "ComposterMixin",
-    "NetherMixin",
-    "ChunkGeneratorSettingsMixin"
+    "BlockMixin","ComposterMixin"
   ],
   "server": [
-    "GeneratorOptionsMixin"
   ],
   "client": [
-    "GeneratorTypeAccessor",
-    "GeneratorTypeMixin",
-    "GeneratorOptionsMixin2"
   ],
   "injectors": {
     "defaultRequire": 1

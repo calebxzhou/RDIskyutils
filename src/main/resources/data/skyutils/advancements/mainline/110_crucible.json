@@ -1,0 +1,33 @@
+{
+  "parent": "skyutils:mainline/19_clayball",
+  "display": {
+    "icon": {
+      "item": "skyutils:raw_crucible"
+    },
+    "title": "1.10 坩埚",
+    "frame": "task",
+    "description": "用黏土球合成一个坩埚。",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raw_crucible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyutils:raw_crucible"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raw_crucible"
+    ]
+  ]
+}

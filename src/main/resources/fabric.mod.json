@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "skyutils",
   "version": "${version}",
-  "name": "Sky utilities Mod",
-  "description": "Sky utilities",
+  "name": "RDI 有中生无",
+  "description": "有中生无",
   "authors": [
-    "Me!"
+    "Davickk"
   ],
   "contact": {
     "homepage": "",
@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.nicguzzo.SkyutilsMod"
+      "calebzhou.skyutils.SkyutilsMod"
     ],
     "client": [
-      "net.nicguzzo.SkyutilsClientMod"
+      "calebzhou.skyutils.SkyutilsClientMod"
     ]
   },
   "mixins": [
@@ -28,8 +28,7 @@
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "1.19",
     "java": ">=16"
-  },
-  "accessWidener": "skyutils.accesswidener"
+  }
 }

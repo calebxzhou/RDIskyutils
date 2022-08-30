@@ -1,0 +1,33 @@
+{
+  "parent": "skyutils:mainline/12_woodchip",
+  "display": {
+    "icon": {
+      "item": "skyutils:condenser"
+    },
+    "title": "1.3 冷凝板",
+    "description": "制造一个冷凝板",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "condenser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyutils:condenser"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "condenser"
+    ]
+  ]
+}

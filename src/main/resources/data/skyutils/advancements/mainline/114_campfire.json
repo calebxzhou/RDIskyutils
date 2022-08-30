@@ -1,0 +1,33 @@
+{
+  "parent": "skyutils:mainline/112_charcoal",
+  "display": {
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "title": "1.14 营火",
+    "frame": "task",
+    "description": "使用木棍、木炭和去皮原木合成营火。",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "campfire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:campfire"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "campfire"
+    ]
+  ]
+}
