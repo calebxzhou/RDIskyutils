@@ -1,0 +1,22 @@
+{
+  "item.skyutils.wooden_hammer": "木锤",
+  "item.skyutils.stone_hammer": "石锤",
+  "item.skyutils.iron_hammer": "铁锤",
+  "item.skyutils.diamond_hammer": "钻石锤",
+  "item.skyutils.netherite_hammer": "地狱锤",
+  "item.skyutils.woodchips": "木片",
+  "item.skyutils.pebble": "小石子",
+  "item.skyutils.crucible": "坩埚",
+  "item.skyutils.water_crucible": "水坩埚",
+  "item.skyutils.lava_crucible": "岩浆坩埚",
+  "item.skyutils.diamond_nugget": "钻石粒",
+  "item.skyutils.raw_crucible": "生坩埚",
+  "item.skyutils.charcoal_block": "木炭块",
+  "item.skyutils.condenser": "冷凝板",
+  "item.skyutils.kiln": "窑炉",
+  "block.skyutils.kiln": "窑炉",
+  "block.skyutils.charcoal_block": "木炭块",
+
+  "block.skyutils.condenser": "冷凝板",
+  "container.skyutils.kiln": "窑炉"
+}

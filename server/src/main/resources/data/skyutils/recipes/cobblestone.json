@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "ccc",
+      "ccc",
+      "ccc"
+  ],
+  "key": {
+      "c": {
+          "item": "skyutils:pebble"
+      }
+  },
+  "result": {
+      "item": "minecraft:cobblestone",
+      "count": 1
+  }
+}
